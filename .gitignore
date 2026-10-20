@@ -1,0 +1,27 @@
+# Local operating-system and editor metadata
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local credentials and configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Downloaded models and experiment outputs
+data/hf_cache/
+data/*/hf_cache/
+data/*/avail_data/
+data/*/model/
+data/*/result/
+*.log
